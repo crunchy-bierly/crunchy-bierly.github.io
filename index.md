@@ -1,6 +1,6 @@
 # Discover Crunchy Data: Your Postgres Partner
 
-![Crunchy Data Logo](https://www.crunchydata.com/brand/CrunchyDataLogoHorizontal.png)
+![Crunchy Data Logo](/assets/images/CrunchyDataLogoHorizontal.png)
 
 **Boost your Postgres abilities with Crunchy Data!**
 
