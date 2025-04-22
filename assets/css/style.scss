@@ -21,3 +21,16 @@ a {
 img {
   max-width: 300px; /* Adjust logo size */
 }
+
+span.credits.right {
+  visibility: hidden; /* Hide original text */
+  position: relative; /* Position for pseudo-element */
+}
+
+span.credits.right::before {
+  content: "Disclaimer: This site managed independent of CrunchyData, Inc"; /* New text */
+  visibility: visible; /* Show new text */
+  position: absolute; /* Overlay new text */
+  left: 0;
+  color: #007bff; /* Match Crunchy Data's branding */
+}
