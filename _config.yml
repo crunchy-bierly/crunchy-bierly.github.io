@@ -2,3 +2,6 @@ title: CPK Cookbook
 description: A collection of CPK knowledge
 theme: jekyll-theme-midnight
 
+github:
+  is_project_page: false
+
