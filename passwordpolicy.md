@@ -7,7 +7,7 @@
 
 Before you begin, ensure that:
 
-1. You are using **currently supported versions** of CPK.
+1. You are using a **currently supported version** of CPK.
 2. Your PostgreSQL cluster is running inside a Kubernetes environment.
 3. Familiarity with Kubernetes resources such as Deployments and ConfigMaps is beneficial.
 
@@ -16,7 +16,12 @@ Before you begin, ensure that:
 Ensure that your currently supported version of CPK includes the **passwordpolicy** extension. You can check the availability using the following command within an interactive PostgreSQL shell:
 
 ```sql
-SELECT name FROM pg_available_extensions WHERE name = 'passwordpolicy';
+SELECT name, comment FROM pg_available_extensions WHERE name = 'passwordpolicy';
+
+      name      |                     comment
+----------------+--------------------------------------------------
+ passwordpolicy | passwordpolicy - strengthen user password checks
+(1 row)
 ```
 
 If you do not see `passwordpolicy` listed, it may be necessary to update your PostgreSQL image or version.
