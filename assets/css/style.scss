@@ -2,10 +2,19 @@
 ---
 @import "{{ site.theme }}";
 
+.fork {
+  display: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  color: #007bff; /* Crunchy Data's Electric Blue */
+  color: #007bff;
 }
 
 a {
-  color: #007bff; /* Links in Electric Blue */
+  color: #007bff;
+}
+
+img {
+  max-width: 300px;
+  border: 2px solid #007bff;
 }
