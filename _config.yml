@@ -8,5 +8,7 @@ public: false
 show_downloads: false
 hide_github: true
 
+github:
+  url: "https://crunchydata.com"
 
 
