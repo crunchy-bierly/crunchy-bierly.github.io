@@ -94,8 +94,8 @@ spec:
             value: "2"
 ```
 
-1. **`shared_preload_libraries`**: Load the passwordpolicy extension during PostgreSQL server startup.
-2. **Password Policy Settings**:
+**Patroni Password Policy Settings**:
+   - `shared_preload_libraries`: Load the passwordpolicy extension during PostgreSQL server startup.
    - `p_policy.min_password_len`: Minimum password length, e.g., 6 characters.
    - `p_policy.min_special_chars`: Minimum number of special characters required.
    - `p_policy.min_numbers`: Minimum number of numeric characters required.
@@ -150,17 +150,6 @@ CREATE ROLE
 
 Feel free to adjust the manifest settings based on your specific security requirements after observing which configurations enforce appropriate complexity and strength for passwords.
 
-## Advanced Use Cases
-
-### Step 5: Securing Admin Passwords with PAM (Pluggable Authentication Modules)
-
-For environments requiring additional layers of security, you can enforce password policies on PostgreSQL roles using **PAM**. Modify the PostgreSQL server’s configuration to use PAM as an authentication method:
-
-```sql
-ALTER USER "postgres" WITH PASSWORD 'new_secure_password';
-```
-
-Ensure that your Kubernetes cluster has appropriate configurations for PAM module integration.
 
 ### Step 6: Automated Password Policy Checks with Scheduled Jobs
 
