@@ -2,6 +2,7 @@ title: CPK Cookbook
 description: A collection of CPK knowledge
 # theme: jekyll-theme-midnight
 remote_theme: jekyll-theme-chirpy
+theme_mode: dark
 
 show_downloads: false
 hide_github: true
