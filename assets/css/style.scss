@@ -34,3 +34,10 @@ span.credits.right::before {
   left: 0;
   color: #007bff; /* Match Crunchy Data's branding */
 }
+
+/* Style the disclaimer */
+.disclaimer {
+  font-size: 0.8em; /* Smaller text */
+  font-style: italic; /* Italicized for subtlety */
+  color: #666; /* Muted color to blend with Midnight theme */
+}
