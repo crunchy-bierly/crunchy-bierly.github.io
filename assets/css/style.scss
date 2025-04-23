@@ -31,7 +31,7 @@ span.credits.right {
 }
 
 span.credits.right::before {
-  content: "Disclaimer: This site managed independent of CrunchyData, Inc"; /* New text */
+  content: "<p class=\"disclaimer >Disclaimer: This site managed independent of CrunchyData, Inc\" </p>"; /* New text */
   visibility: visible; /* Show new text */
   position: absolute; /* Overlay new text */
   left: 0;
