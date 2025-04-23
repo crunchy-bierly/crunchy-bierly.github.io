@@ -43,9 +43,7 @@ metadata:
   name: secure-pg-cluster
   namespace: postgres-operator
 spec:
-  # Update to use an image that includes passwordpolicy (e.g., 14.5-ubi8)
-  image: registry.developers.crunchydata.com/crunchypostgres/postgres-ha:ubi8-14.5-0
-  postgresVersion: "14"
+  postgresVersion: "17"
 ```
 
 #### Step 2.B: Apply the Manifest
@@ -69,8 +67,7 @@ metadata:
   name: secure-pg-cluster
   namespace: postgres-operator
 spec:
-  image: registry.developers.crunchydata.com/crunchypostgres/postgres-ha:ubi8-14.5-0
-  postgresVersion: "14"
+  postgresVersion: "17"
   instances:
     - name: instance1
       dataVolumeClaimSpec:
