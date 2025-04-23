@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-  max-width: 800px
+  max-width: 800px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +21,8 @@ a {
 img {
   max-width: 300px; /* Adjust logo size */
   background-color: #ff33ff
+  padding: 20px;
+  border-radius: 10px;
 }
 
 span.credits.right {
