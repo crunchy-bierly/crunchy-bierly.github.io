@@ -1,7 +1,7 @@
 ---
 ---
 @import "{{ site.theme }}";
-$disclaimer-text: "Disclaimer: This site managed independent of CrunchyData, Inc";
+$disclaimer-text: 'This site managed independent of <a href="https://crunchydata.com"> CrunchyData, Inc</a>';
 
 .fork {
   display: none !important;
@@ -32,12 +32,11 @@ span.credits.right {
 }
 
 span.credits.right::before {
-  
   content: $disclaimer-text; /* New text */
   visibility: visible; /* Show new text */
   position: absolute; /* Overlay new text */
   left: 0;
-  color: #007bff; /* Match Crunchy Data's branding */
+  /* color: #007bff; /* Match Crunchy Data's branding */
 }
 
 /* Style the disclaimer */
