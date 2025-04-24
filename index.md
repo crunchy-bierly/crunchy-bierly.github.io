@@ -22,7 +22,7 @@ Crunchy Data delivers secure, compliant, and high-performance PostgreSQL solutio
 
 ### Real-World Success
 
-Learn how Crunchy Data has helped organizations like Foundever ensure always-on Postgres solutions. Visit our [case studies](https://www.crunchydata.com/case-studies/foundever) to see the impact we can make for your business.
+Learn how Crunchy Data has helped organizations like Foundever ensure always-on Postgres solutions. Visit our [case studies](https://www.crunchydata.com/customers) to see the impact we can make for your business.
 
 ### Visit Crunchy Data Today
 
